@@ -12,7 +12,7 @@ body{
 header{
     display: flex;
     justify-content: space-between;
-    padding: 10px 30px;
+    padding: 10px;
 }
 .nav{
     display: flex;
@@ -38,7 +38,11 @@ ul{
     display: flex; 
     align-items: center; 
     justify-content: center; 
-    height: 80%;
+    height: 85%;
+}
+.logo_div{
+    width: 100px;
+    height: 20px;
 }
 section{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -46,7 +50,7 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 700px;
+    width: 690px;
     height: 100%;
     margin-top: 20px;
 }
@@ -65,9 +69,17 @@ section{
     width: 40%;
     padding: 20px;
 }
-.blue_div p{
+.blue_div .blue_div_paid{
     padding: 10px;
     font-size: 15px;
+}
+sup{
+    font-size: 1rem;
+    font-weight: 400;
+}
+.blue_div .blue_div_paid span{
+    font-size: 5rem;
+    font-weight: 300;
 }
 .blue_div_img{
     display: flex;
@@ -84,12 +96,15 @@ section{
     padding-bottom:  30px;
 }
 .underline_p{
+    padding-top:20px;
     text-decoration: underline;
 }
 .emphasize_p{
     font-style: italic;
     font-size: 12px;
     padding:20px 0;
+    width: 200px;
+    margin-left: 15px;
 }
 .emphasize_p span{
     font-weight: 900;
@@ -97,18 +112,17 @@ section{
 .form_div_1, .form_div_2{
     padding: 10px;
 }
-.blue_div_paid span{
-    font-size: 3rem;
-}
+
 input{
     padding: 5px;
     background-color: #EDEFF2;
     border: none;
     margin: 10px 0;
     width: 100%;
+    padding: 10px;
 }
 input::placeholder{
-    font-size: 14px;
+    font-size: 12px;
     padding: 5px;
 }
 label{
@@ -156,7 +170,7 @@ label{
     margin-left: 20px;
     font-size: 10px;
     text-align: left;
-    padding: 10px;
+    padding: 15px 10px;
     width: 250px;
 }
 .shape_img{
@@ -175,5 +189,5 @@ footer{
     font-size: 10px;
     color: #1D2C3C;
     font-weight: 300;
-    padding: 10px;
+    padding: 15px;
 }
